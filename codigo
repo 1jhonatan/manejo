@@ -1,0 +1,6 @@
+@echo off
+set /p letra=letra_unidad
+set /p formato=formato_unidad
+set /p label=nombre_del_usuario
+format %label% /FS:%format% /V:%label% /q
+pause
